@@ -6,5 +6,5 @@ $('#count-sum').click(function(){
     wyplaty.each(function() {
         suma += parseFloat($(this).text());
     });
-    sumaTxt.text(suma)
+    sumaTxt.text(suma)   
 })
